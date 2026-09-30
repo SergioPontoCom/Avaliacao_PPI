@@ -1,0 +1,10 @@
+body{
+background-color: blue;
+height: 100vh;
+}
+
+div{
+background-color: aliceblue;
+border-radius: 20%;
+height: 400px;
+}
