@@ -102,6 +102,12 @@ body {
     display: flex;
     align-items: center;
     gap: 15px;
+    
+}
+
+.logo img{
+    height: 50px;
+    width: 35px;
 }
 
 .logo > span {
@@ -241,7 +247,7 @@ body {
 
 .Page-botoes {
     display: flex;
-    gap: 15px;
+    gap: 30px;
     flex-wrap: wrap;
 }
 
@@ -319,10 +325,160 @@ body {
     margin-bottom: 20px;
 }
 
+/*
+    Seções
+*/
 
+.secao {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 110px 30px;
+}
 
+.titulo-secao {
+    margin-bottom: 55px;
+}
 
+.titulo-secao > span {
+    color: var(--verde);
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
 
+.titulo-secao h2 {
+    max-width: 700px;
+    margin-top: 10px;
+    font-size: clamp(35px, 5vw, 55px);
+    line-height: 1.05;
+}
+
+.titulo-secao p {
+    color: var(--cinza);
+    margin-top: 15px;
+}
+
+.centralizado h2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+    Sobre
+*/
+
+.sobre-grid {
+    display: grid;
+    grid-template-columns:1.5fr 1fr;
+    gap: 70px;
+    align-items: center;
+}
+
+.sobre_texto p{
+    color: var(--cinza);
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+blockquote {
+    position: relative;
+    margin-top: 35px;
+    padding: 25px 30px;
+    border-left: 4px solid var(--verde);
+    background: var(--cinza-claro);
+    font-weight: bold;
+    color: var(--verde-escuro);
+}
+
+.sobre-destaque {
+    position: relative;
+    padding: 40px;
+    background: var(--verde);
+    color: white;
+    border-radius: var(--raio);
+    overflow: hidden;
+    box-shadow: var(--sombra);
+}
+
+.sobre-destaque::after {
+    content: "";
+    position: absolute;
+    right: -60px;
+    bottom: -60px;
+    width: 180px;
+    height: 180px;
+    border: 35px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.numero {
+    font-size: 70px;
+    color: var(--amarelo);
+    font-weight: 900;
+}
+
+.sobre-destaque h3 {
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+/*
+    Cursos
+*/
+
+.cursos {
+    max-width: none;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: var(--cinza-claro);
+}
+
+#cursos{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.cards-cursos {
+    max-width: var(--max-width);
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.curso-card {
+    position: relative;
+    min-height: 230px;
+    padding: 30px;
+    background: white;
+    border: 1px solid var(--borda);
+    border-radius: var(--raio);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.curso-card:hover {
+    transform: translateY(-8px);
+    border-color: var(--verde);
+    box-shadow: var(--sombra);
+}
+
+.curso-card span {
+    color: var(--verde);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.curso-card h3 {
+    margin-top: 50px;
+    font-size: 23px;
+}
+
+.curso-card p {
+    color: var(--cinza);
+    margin-top: 8px;
+}
 
 
 /* 

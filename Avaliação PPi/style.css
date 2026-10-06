@@ -385,9 +385,7 @@ a {
 
 .secao {
     max-width: var(--max-width);
-
     margin: auto;
-
     padding: 110px 30px;
 }
 
@@ -397,10 +395,8 @@ a {
 
 .titulo-secao > span {
     color: var(--verde);
-
     font-size: 12px;
     font-weight: bold;
-
     letter-spacing: 2px;
 }
 
