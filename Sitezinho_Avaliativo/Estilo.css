@@ -622,17 +622,6 @@ footer {
         display: none;
     }
 
-    .criterios-grid {
-        grid-template-columns:
-            repeat(2, 1fr);
-    }
-
-    .tecnologia {
-        flex-direction: column;
-
-        align-items: flex-start;
-    }
-
 }
 
 
