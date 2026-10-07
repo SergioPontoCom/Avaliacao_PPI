@@ -408,64 +408,6 @@ blockquote {
     margin: 10px 0;
 }
 
-/*
-    Cursos
-*/
-
-.cursos {
-    max-width: none;
-    padding-left: 5%;
-    padding-right: 5%;
-    background: var(--cinza-claro);
-}
-
-#cursos{
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-.cards-cursos {
-    max-width: var(--max-width);
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-
-.curso-card {
-    position: relative;
-    min-height: 230px;
-    padding: 30px;
-    background: white;
-    border: 1px solid var(--borda);
-    border-radius: var(--raio);
-    overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
-}
-
-.curso-card:hover {
-    transform: translateY(-8px);
-    border-color: var(--verde);
-    box-shadow: var(--sombra);
-}
-
-.curso-card span {
-    color: var(--verde);
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.curso-card h3 {
-    margin-top: 50px;
-    font-size: 23px;
-}
-
-.curso-card p {
-    color: var(--cinza);
-    margin-top: 8px;
-}
-
 /* 
     Cursos 
 */
